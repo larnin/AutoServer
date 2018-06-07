@@ -7,8 +7,8 @@
     <ProjectGuid>{7EE4C9FC-1060-486E-86E4-5FB8FEF570FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Spectrum.Plugins.ServerMod</RootNamespace>
-    <AssemblyName>ServerMod.plugin</AssemblyName>
+    <RootNamespace>AutoServer</RootNamespace>
+    <AssemblyName>AutoServer.plugin</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -47,6 +47,10 @@
   <ItemGroup>
     <Compile Include="Entry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States\BaseState.cs" />
+    <Compile Include="States\InitializeServerState.cs" />
+    <Compile Include="States\StateMachine.cs" />
+    <Compile Include="Utilities\TimedAction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
