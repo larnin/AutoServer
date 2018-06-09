@@ -9,7 +9,6 @@ namespace AutoServer.Utilities
 {
     public class TimedAction
     {
-        GameObject gameObject;
         MonoBehaviour behaviour;
 
         static TimedAction m_instance;
@@ -25,9 +24,7 @@ namespace AutoServer.Utilities
 
         TimedAction()
         {
-            gameObject = new GameObject("TimedAction", typeof(MonoBehaviour));
-            behaviour = gameObject.GetComponent<MonoBehaviour>();
-            GameObject.DontDestroyOnLoad(gameObject);
+            behaviour = G.Sys.GameManager_;
         }
 
         public static void DelayedCall(float delay, Action action)

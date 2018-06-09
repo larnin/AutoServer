@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectrum.API", "Spectrum\Sp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harmony", "Harmony\Harmony\Harmony.csproj", "{69AEE16A-B6E7-4642-8081-3928B32455DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectrum.Interop", "Spectrum\Spectrum.Interop\Spectrum.Interop.csproj", "{77C20B4A-284C-4B3D-A5B5-B254E637FB47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{69AEE16A-B6E7-4642-8081-3928B32455DF}.Debug|Any CPU.Build.0 = Debug-4.7.1|Any CPU
 		{69AEE16A-B6E7-4642-8081-3928B32455DF}.Release|Any CPU.ActiveCfg = Release-3.5|Any CPU
 		{69AEE16A-B6E7-4642-8081-3928B32455DF}.Release|Any CPU.Build.0 = Release-3.5|Any CPU
+		{77C20B4A-284C-4B3D-A5B5-B254E637FB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C20B4A-284C-4B3D-A5B5-B254E637FB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C20B4A-284C-4B3D-A5B5-B254E637FB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C20B4A-284C-4B3D-A5B5-B254E637FB47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
